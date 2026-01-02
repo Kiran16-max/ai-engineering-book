@@ -1,0 +1,18 @@
+# sp.plan.toml
+[command]
+name = "sp.plan"
+description = "Generate plan.md for Physical AI textbook"
+prompt = """
+You are creating a detailed plan.md for the Physical AI & Humanoid Robotics textbook.
+Use the content in spec.md and the Constitution rules.
+Follow these sections:
+
+1. Architecture Sketch (Sim Rig, Edge Brain, Sensors, Actuator)
+2. Section Structure (Modules 1-4, Weekly Breakdown)
+3. Research Approach (APA citations, research-concurrent)
+4. Quality Validation (Reproducibility, Technical Accuracy)
+5. Decisions Documentation (Lab setup, Cloud vs On-Premise, Hardware trade-offs)
+6. Testing Strategy (Capstone simulation, ROS 2 packages, Gazebo/Isaac pipeline)
+
+Output: A complete markdown file ready for `/sp.tasks`
+"""

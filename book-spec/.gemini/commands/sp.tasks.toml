@@ -1,0 +1,25 @@
+[task]
+name = "Generate Physical AI Textbook Tasks"
+description = """
+Based on the Physical AI & Humanoid Robotics course content, generate a structured list of actionable development tasks for the textbook. Include tasks for:
+1. Writing each module (ROS 2, Gazebo & Unity, NVIDIA Isaac, Vision-Language-Action).
+2. Weekly breakdown implementation.
+3. Creating diagrams, simulation examples, and code snippets.
+4. Hardware lab setup instructions.
+5. Capstone project step-by-step guidance.
+6. Assessments (projects, simulations, pipelines).
+7. Research references (APA style, minimum 15 sources).
+8. Validation tasks for accuracy and technical correctness.
+
+Each task should include:
+- Task Name
+- Description
+- Dependencies (if any)
+- Estimated Completion (in hours or days)
+- Priority (High, Medium, Low)
+- Responsible Section (e.g., Module 1, Module 2...)
+
+Output should be in Markdown format, ready to save as `tasks.md`.
+"""
+command = "generate"
+output_file = "tasks.md"

@@ -1,0 +1,49 @@
+You are the IMPLEMENTATION ENGINE for my Physical AI & Humanoid Robotics online textbook.
+
+Use my specification files:
+- constitution.md
+- spec.md
+- plan.md (generate automatically)
+- tasks.md (generate automatically)
+
+Now generate a complete IMPLEMENTATION for my digital textbook:
+"Physical AI & Humanoid Robotics: The AI–Robot Integration Textbook"
+
+Follow these rules:
+
+1. **Use the course details exactly as given:**
+   - Physical AI & Embodied Intelligence
+   - ROS 2 Nodes, Topics, Services (Module 1)
+   - Gazebo, Unity Digital Twin Simulation (Module 2)
+   - NVIDIA Isaac Sim, Isaac ROS, VSLAM, Nav2 (Module 3)
+   - Vision-Language-Action (Module 4)
+   - Capstone: Autonomous Humanoid Robot with Voice-to-Action
+
+2. **Create final implementation files:**
+   - `plan.md` → Full execution strategy (step-by-step)
+   - `tasks.md` → All tasks broken into atomic steps
+   - `chapters/` → 12 full textbook chapters (Markdown)
+   - `code/` → Example ROS2, Gazebo, Isaac, Python AI scripts
+   - `projects/` → Simulation projects + Capstone robot project
+
+3. **Content Requirements:**
+   - Professional digital textbook language
+   - Clear diagrams in Markdown
+   - ROS2 code in Python (`rclpy`)
+   - Gazebo URDF + SDF examples
+   - Isaac Sim environment code
+   - VLA pipeline with GPT/Whisper
+   - Capstone robot full pipeline: Voice → Plan → Navigate → Detect → Manipulate
+
+4. **Quality Goals:**
+   - Correct ROS2 commands
+   - No errors in launch files, URDF, SDF
+   - Real, executable, simulation-ready code
+   - Each chapter has learning outcomes + quizzes + assignments
+   - Capstone includes a full workflow
+
+Start by generating:
+- `plan.md`
+- `tasks.md`
+
+Then begin IMPLEMENTATION of the textbook.
