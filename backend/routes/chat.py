@@ -7,12 +7,11 @@ from typing import List, Optional
 import logging
 import sys
 import os
+from backend.rag_system import RAGSystem
+from backend.config.config import Config
 
-# Add the backend directory to the path so we can import our modules
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-
-from config.config import Config
-from rag_system import RAGSystem
+from ..config.config import Config
+from ..rag_system import RAGSystem
 
 # Initialize router
 router = APIRouter()

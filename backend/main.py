@@ -2,15 +2,9 @@
 Main FastAPI application for the RAG chatbot backend.
 This is the entry point for the application.
 """
-import sys
-import os
-
-# Add the backend directory to the Python path to allow imports
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routes.chat import router as chat_router
+from backend.routes.chat import router as chat_router
 
 # Initialize FastAPI app
 app = FastAPI(
